@@ -1,12 +1,10 @@
-import { Button } from "@/components/ui/button";
-import { SignInButton } from "@clerk/clerk-react";
+import Header from "@/components/header/Header";
 
 const Home = () => {
   return (
     <>
-      <SignInButton mode="modal">
-        <Button>SignIn Button</Button>
-      </SignInButton>
+      {/* Header Component */}
+      <Header></Header>
     </>
   );
 };
