@@ -14,19 +14,19 @@ const Header = () => {
           </div>
 
           <ul className="hidden md:flex gap-10 font-medium">
-            <li className="hover:scale-110 transition-all cursor-pointer text-primary">
+            <li className="hover:scale-110 transition-all cursor-pointer">
               Home
             </li>
-            <li className="hover:scale-110 transition-all cursor-pointer text-primary">
+            <li className="hover:scale-110 transition-all cursor-pointer">
               New Cars
             </li>
-            <li className="hover:scale-110 transition-all cursor-pointer text-primary">
+            <li className="hover:scale-110 transition-all cursor-pointer">
               Preowned
             </li>
-            <li className="hover:scale-110 transition-all cursor-pointer text-primary">
+            <li className="hover:scale-110 transition-all cursor-pointer">
               About Us
             </li>
-            <li className="hover:scale-110 transition-all cursor-pointer text-primary">
+            <li className="hover:scale-110 transition-all cursor-pointer">
               Contact
             </li>
           </ul>

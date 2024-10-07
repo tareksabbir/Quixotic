@@ -1,10 +1,11 @@
 import Header from "@/components/header/Header";
+import Hero from "@/components/Hero/Hero";
 
 const Home = () => {
   return (
     <>
-      {/* Header Component */}
       <Header></Header>
+      <Hero></Hero>
     </>
   );
 };
