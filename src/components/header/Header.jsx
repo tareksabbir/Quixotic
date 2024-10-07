@@ -1,5 +1,5 @@
 import { UserButton, useUser } from "@clerk/clerk-react";
-import logo from "../../../public/logo.svg";
+import logo from "/logo.svg";
 import { Button } from "../ui/button";
 
 const Header = () => {
@@ -35,10 +35,10 @@ const Header = () => {
             {isSignedIn ? (
               <div className="flex items-center space-x-3">
                 <UserButton></UserButton>
-                <Button>Add Listing</Button>
+                <Button className="rounded-full">Add Listing</Button>
               </div>
             ) : (
-              <Button>Add Listing</Button>
+              <Button className="rounded-full">Add Listing</Button>
             )}
           </div>
         </div>
