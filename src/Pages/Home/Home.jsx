@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact/Contact";
 import Category from "@/components/HomePageComponents/Category/Category";
 
 import Hero from "@/components/HomePageComponents/Hero/Hero";
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero></Hero>
       <Category></Category> 
       <SearchCarsCard></SearchCarsCard>
+      <Contact></Contact>
    
     </>
   );
