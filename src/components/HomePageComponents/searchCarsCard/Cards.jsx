@@ -9,7 +9,7 @@ import { MdOutlineOpenInNew } from "react-icons/md";
 const Cards = ({ car }) => {
   return (
     <div className="rounded-xl bg-white border hover:shadow">
-      <h2 className="absolute m-2 text-white text-sm rounded-xl px-2  bg-black">New</h2>
+      <h2 className="absolute m-2 text-white text-sm rounded-xl px-2  bg-primary">New</h2>
       <img
         src={car?.image}
         alt=""
@@ -37,7 +37,7 @@ const Cards = ({ car }) => {
         <Separator></Separator>
         <div className="flex justify-between items-center my-3 mx-2">
           <h2 className="font-bold">$ {car?.price}</h2>
-          <h2 className="font-bold text-primary flex items-center">
+          <h2 className="font-bold  flex items-center">
           <span>View Details</span>
             <MdOutlineOpenInNew className="font-bold ml-2"/>
             
