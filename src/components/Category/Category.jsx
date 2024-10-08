@@ -2,7 +2,7 @@ import Data from "@/Shared/Data";
 
 const Category = () => {
   return (
-    <div className="mt-20 md:mt-[15rem] container mx-auto">
+    <div className="mt-24 md:mt-[15rem] container mx-auto">
       <h2 className="text-3xl text-center font-bold mb-6">
         Browse By Category
       </h2>
