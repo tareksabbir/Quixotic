@@ -3,7 +3,7 @@ import Cards from "./Cards";
 
 const SearchCarsCard = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mb-20">
       <h1 className="text-3xl font-bold text-center my-16">
         Most Searched Cars
       </h1>
