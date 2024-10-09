@@ -1,8 +1,8 @@
 import Contact from "@/components/Contact/Contact";
-import Category from "@/components/HomePageComponents/Category/Category";
+import Category from "@/Pages/Home/Component/Category/Category";
 
-import Hero from "@/components/HomePageComponents/Hero/Hero";
-import SearchCarsCard from "@/components/HomePageComponents/searchCarsCard/SearchCarsCard";
+import Hero from "@/Pages/Home/Component/Hero/Hero";
+import SearchCarsCard from "@/Pages/Home/Component/searchCarsCard/SearchCarsCard";
 
 const Home = () => {
   return (

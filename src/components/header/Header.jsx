@@ -2,6 +2,7 @@ import { UserButton, useUser } from "@clerk/clerk-react";
 import logo from "/logo2.svg";
 // import logo from "/logo.svg";
 import { Button } from "../ui/button";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const { isSignedIn } = useUser();
@@ -11,7 +12,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             {/* <img src={logo} alt="" className="w-4 mr-2" /> */}
-            <img src={logo} alt="" className="w-[7rem]" />
+           <Link to={"/"}> <img src={logo} alt="" className="w-[7rem]" /></Link>
             {/* <h1 className="text-2xl font-medium">RetailCars</h1> */}
           </div>
 
@@ -37,10 +38,14 @@ const Header = () => {
             {isSignedIn ? (
               <div className="flex items-center space-x-3">
                 <UserButton></UserButton>
-                <Button className="rounded-full">Add Listing</Button>
+                <Link to={"/profile"}>
+                  <Button className="rounded-full">Add Listing</Button>
+                </Link>
               </div>
             ) : (
-              <Button className="rounded-full">Add Listing</Button>
+              <Link to={"/profile"}>
+                <Button className="rounded-full">Add Listing</Button>
+              </Link>
             )}
           </div>
         </div>

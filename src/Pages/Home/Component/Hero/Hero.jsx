@@ -1,5 +1,5 @@
 
-import heroCar from "../../../assets/CarPng/Hero.png";
+import heroCar from "../../../../assets/CarPng/Hero.png";
 import Search from "../Search/Search";
 
 const Hero = () => {
